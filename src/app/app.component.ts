@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
+  fechaNacimiento: String='';
+
   constructor() {}
+  enviarDatos() {
+    // Aquí puedes manejar la lógica para enviar los datos
+    console.log('Datos enviados:');
+    console.log('Fecha de Nacimiento:', this.fechaNacimiento);
+  }
 }
